@@ -35,6 +35,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 .header__burger span {
 	position: absolute;
@@ -128,6 +129,7 @@ body {
 	border-radius: 8px;
 	transition: all 0.3s ease 0s;
 	margin-top: 20px;
+	cursor: pointer;
 }
 .btn:active {
 	background-color: #b40b27;

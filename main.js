@@ -30,7 +30,6 @@ reset.addEventListener('click', function () {
 	location.reload();
 })
 
-let list = [];
 function startGame() {
 	start.style.display = 'none';
 	stop.style.display = 'block';
@@ -81,8 +80,6 @@ function startTimer() {
 		stopTimer();
 	}
 }
-
-let timeList = [];
 
 function stopTimer() {
 	clearInterval(timer);
